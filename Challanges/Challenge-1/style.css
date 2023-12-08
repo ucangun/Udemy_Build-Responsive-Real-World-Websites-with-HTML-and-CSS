@@ -1,5 +1,4 @@
 body {
-  font-size: 16px;
   line-height: 1, 4px;
   font-family: sans-serif;
 }
@@ -41,22 +40,25 @@ body {
   text-decoration: none;
 }
 
-h3 {
-  font-size: 18px;
+.details-title {
+  font-size: 16px;
   text-transform: uppercase;
 }
 
-.product-details {
+.details-list {
   list-style: square;
 }
 
-button {
+.add-cart {
+  font-size: 20px;
   text-transform: uppercase;
   color: white;
   background-color: black;
+  border: none;
+  cursor: pointer;
 }
 
-button:hover {
+.add-cart:hover {
   color: black;
   background-color: white;
 }
