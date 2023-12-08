@@ -1,33 +1,43 @@
 body {
   font-size: 16px;
+  line-height: 1, 4px;
   font-family: sans-serif;
+}
 
+.product {
   border: 5px solid black;
 }
 
-h2 {
+.product-title {
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
   background-color: #f7f7f7;
 }
 
+.price {
+  font-size: 24px;
+}
+
 .free-shipping {
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #444;
+  color: #777;
 }
-
-a:link {
+.more-info:link {
   color: black;
 }
 
-a:visited {
+.more-info:visited {
   color: black;
 }
 
-a:hover {
+.more-info:hover {
+  text-decoration: none;
+}
+
+.more.info:active {
   text-decoration: none;
 }
 
@@ -44,11 +54,9 @@ button {
   text-transform: uppercase;
   color: white;
   background-color: black;
-  l
 }
 
 button:hover {
   color: black;
   background-color: white;
-
 }
