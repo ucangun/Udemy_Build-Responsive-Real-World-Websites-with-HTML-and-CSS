@@ -40,6 +40,8 @@ body {
 
 .more-info:link {
   color: black;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
 .more-info:visited {
@@ -52,6 +54,53 @@ body {
 
 .more.info:active {
   text-decoration: none;
+}
+
+.color-black {
+  display: inline-block;
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-blue {
+  display: inline-block;
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-red {
+  display: inline-block;
+  background-color: red;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-yellow {
+  display: inline-block;
+  background-color: yellow;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-green {
+  display: inline-block;
+  background-color: green;
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.color-braun {
+  display: inline-block;
+  background-color: brown;
+  height: 22px;
+  width: 22px;
 }
 
 .details-title {
@@ -85,4 +134,16 @@ body {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+h2::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
 }
