@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.container {
-  width: 825px;
-  margin: 50px auto;
-}
-
 body {
   line-height: 1, 3px;
   font-family: sans-serif;
@@ -15,6 +10,8 @@ body {
 
 .product {
   border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
 }
 
 .product-title {
@@ -22,9 +19,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   background-color: #f7f7f7;
-  height: 30px;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding: 15px;
 }
 
 .price {
@@ -37,7 +32,7 @@ body {
   text-transform: uppercase;
   font-weight: bolder;
   color: #777;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .short-text {
   margin-bottom: 10px;
@@ -62,13 +57,13 @@ body {
 .details-title {
   font-size: 16px;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .details-list {
   list-style: square;
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .details-list-item {
@@ -82,10 +77,8 @@ body {
   background-color: black;
   border: none;
   cursor: pointer;
-  width: 815px;
-  height: 35px;
-  padding-top: 5px;
-  padding-bottom: 8px;
+  width: 100%;
+  padding: 15px;
   border-top: 5px solid black;
 }
 
