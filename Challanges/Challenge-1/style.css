@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -152,4 +153,41 @@ body {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+/*Float*/
+.product-title {
+  clear: both;
+}
+
+.price {
+  float: left;
+  margin-top: 10px;
+}
+
+.free-shipping {
+  float: right;
+  margin-top: 20px;
+}
+
+.short-text {
+  clear: both;
+}
+
+.image {
+  float: left;
+  margin-right: 40px;
+}
+
+.box-2 {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  padding: 10px 10px;
+}
+
+.box-3 {
+  float: right;
+  width: 243px;
+  padding: 10px 10px;
 }

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /*PAGE SECTION*/
 
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -40,8 +41,7 @@ article {
 aside {
   background-color: #f7f7f7;
   border: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -85,6 +85,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -129,6 +130,7 @@ footer p {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 .first-li {
@@ -226,4 +228,45 @@ h2::after {
   position: absolute;
   top: -10px;
   right: -25px;
+}
+
+/* Floats */
+
+.author-image {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
