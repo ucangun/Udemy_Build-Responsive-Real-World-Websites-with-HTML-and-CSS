@@ -10,7 +10,7 @@ body {
 }
 
 .product {
-  border: 5px solid black;
+  border: 4px solid black;
   width: 825px;
   margin: 50px auto;
   position: relative;
@@ -26,7 +26,6 @@ body {
 
 .price {
   font-size: 24px;
-  margin: 5px;
 }
 
 .free-shipping {
@@ -126,7 +125,7 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .details-list {
@@ -156,22 +155,19 @@ body {
 }
 
 /*Float*/
-.product-title {
-  clear: both;
-}
 
 .price {
   float: left;
-  margin-top: 10px;
 }
 
 .free-shipping {
   float: right;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 
 .short-text {
   clear: both;
+  margin-bottom: 10px;
 }
 
 .image {
@@ -183,7 +179,7 @@ body {
   float: left;
   width: 243px;
   margin-right: 40px;
-  padding: 10px 10px;
+  margin-top: 20px;
 }
 
 .box-3 {
