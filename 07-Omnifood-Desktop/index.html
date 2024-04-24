@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Omnifood is an AI-powered food subscription that will make you eat healrhy again, 365 days per year. It's tailored to your personal tastes and nutritional needs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omnifood</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./img/favicon-apple.png" type="image/x-icon">
+    <link rel="stylesheet" href="manifest.manifest">
+    <title>Omnifood &mdash; Never cook again!</title>
     <link href="../07-Omnifood-Desktop/css/general.css" rel="stylesheet" />
     <link href="../07-Omnifood-Desktop/css/style.css" rel="stylesheet" />
     <link href="../07-Omnifood-Desktop/css/queries.css" rel="stylesheet" />
@@ -88,11 +92,16 @@
           </div>
 
           <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp">
+              <source srcset="img/hero-min.png" type="image/png">
             <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="Women enjoying food, meal in storage container, and food bowls on a table"
+            src="img/hero-min.png"
+            class="hero-img"
+            alt="Women enjoying food, meal in storage container, and food bowls on a table"
             />
+
+            </picture>
           </div>
         </div>
       </section>
